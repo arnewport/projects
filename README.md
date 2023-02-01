@@ -1,6 +1,4 @@
-# projects
-
-## simpleBlackjack
+# simpleBlackjack
 
 A straightforward game of Blackjack.
 
