@@ -1,6 +1,6 @@
 # simpleBlackjack
 
-A straightforward game of Blackjack.
+A straightforward game of blackjack.
 
 Supports hitting, standing, doubling, and splitting.
 Does not support betting, surrendering, or insurance.
