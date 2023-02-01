@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="./simpleBlackjack.css">
+    <script src="./simpleBlackjack.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>simpleBlackjack</h1>
+    </header>
+    <div class="main">
+        <div class="grid-container">
+            <div class="grid-item one">
+                <p class="dial-header">Dealer Value</p>
+                <div class="container dealer-value">
+                    <div class="itemGroup">
+                        <div class="item tens">
+                            <p>1</p>
+                            <p>2</p>
+                        </div>
+                    </div>
+                    <div class="itemGroup">
+                        <div class="item ones">
+                            <p>1</p>
+                            <p>2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item two">
+                <div class="card-list" id="dealer-card-list"></div>
+            </div>
+            <div class="grid-item three">
+                <p class="dial-header">Dealer Score</p>
+                <div class="container dealer-score">
+                    <div class="itemGroup">
+                        <div class="item tens">
+                            <p>1</p>
+                            <p>2</p>
+                        </div>
+                    </div>
+                    <div class="itemGroup">
+                        <div class="item ones">
+                            <p>1</p>
+                            <p>2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item four"></div>
+            <div class="grid-item five"></div>
+            <div class="grid-item six">
+                <div class="deck">
+                    <div class="shuffle hidden"></div>
+                    <div class="shuffle hidden"></div>
+                    <div class="shuffle hidden"></div>
+                    <div class="shuffle hidden"></div>
+                    <div class="shuffle hidden"></div>
+                    <div class="shuffle hidden shuffle-end"></div>
+                </div>
+            </div>
+            <div class="grid-item seven">
+                <p class="dial-header">Player Value</p>
+                <div class="container player-value">
+                    <div class="itemGroup">
+                        <div class="item tens">
+                            <p>1</p>
+                            <p>2</p>
+                        </div>
+                    </div>
+                    <div class="itemGroup">
+                        <div class="item ones">
+                            <p>1</p>
+                            <p>2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item eight">
+                <div class="flexbox-wrapper">
+                    <div class="card-list" id="player-card-list-1"></div>
+                    <div id="end-of-hand"></div>
+                </div>
+            </div>
+            <div class="grid-item nine">
+                <p class="dial-header">Player Score</p>
+                <div class="container player-score">
+                    <div class="itemGroup">
+                        <div class="item tens">
+                            <p>1</p>
+                            <p>2</p>
+                        </div>
+                    </div>
+                    <div class="itemGroup">
+                        <div class="item ones">
+                            <p>1</p>
+                            <p>2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <div>
+                <button id="hit" type="button">hit</button>
+                <button id="stand" type="button">stand</button>
+                <button id="double" type="button">double</button>
+                <button id="split" type="button">split</button>
+            </div>
+            <br>
+            <div>
+                <button id="start" type="button">start</button>
+                <button id="replay" type="button">replay</button>
+            </div>
+        </div>
+        <div class="card hidden original-card">
+            <div class="card-front">
+                <div class="corner top">
+                    <p class="value">2</p>
+                    <p class="suit">&spades;</p>
+                </div>
+                <div class="center">
+                    <p class="suit">&spades;</p>
+                </div>
+                <div class="corner bottom">
+                    <p class="value">2</p>
+                    <p class="suit">&spades;</p>
+                </div>
+            </div>
+            <div class="card-back"></div>
+        </div>
+    </div>
+    <footer>
+        <h2>by Andrew Newport</h2>
+    </footer>
+</body>
+</html>
