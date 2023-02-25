@@ -1,5 +1,7 @@
 # simpleBlackjack
 
+https://arnewport.github.io/simpleBlackjack/
+
 A straightforward game of blackjack.
 
 Supports hitting, standing, doubling, and splitting.
