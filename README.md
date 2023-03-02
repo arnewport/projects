@@ -4,6 +4,8 @@ https://arnewport.github.io/simpleBlackjack/
 
 A straightforward game of blackjack.
 
+Multistep animations, use of promises to manage animations and functions, and supporting every edge case of splitting are notable features of the application.
+
 Supports hitting, standing, doubling, and splitting.
 Does not support betting, surrendering, or insurance.
 Uses a single deck that is reshuffled after every game.
