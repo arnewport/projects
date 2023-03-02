@@ -1001,3 +1001,11 @@ replayButton.addEventListener('click', replay);
 // the same function might change the color of the hand value when it is exactly 21?
 // create a function where the cards wobble upon busting?
 // replace arrays with maps in some cases?
+
+// I need to make this application truly responsive. It needs to work on mobile devices
+// Currently, elements overlap on small screen sizes and the hover effect does not work
+// Until I resolve that, it is best to warn potential users
+if (window.matchMedia("(min-width: 800px)").matches) {
+  } else {
+    window.alert("Warning! This application is not compatible with small screen sizes. For the best user experience, please use a device with a screen width wider than 800 pixels.")
+  }
